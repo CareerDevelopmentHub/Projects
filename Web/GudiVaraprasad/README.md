@@ -16,7 +16,4 @@ Calc - A simple interesting Javascript calculating game. Try how hard you can hi
 > Whats's yours ?
 
 > Hit it here :
-> [Play it here](http://birthday-reminder.infinityfreeapp.com/)
-
-> Project Demo :
-> [Click Here for demo](https://www.youtube.com/channel/UCR2gr-sBjqnH0gW-Ca6i7Hw?sub_confirmation=1)
+> [Play it here](https://gudivaraprasad.github.io/Projects/JS_Calc_Game/)
