@@ -1,0 +1,48 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0, shrink-to-fit=no">
+    <link rel="stylesheet" href="./style.css" />
+    <title>CALC - as fast as you can</title>
+    <link rel="icon" type="image/png" href="./icon.png"/>
+    <meta name="description" content="A Calculator Game">
+  </head>
+
+<body onkeyup="keyUp(event)">
+    <div class="startPlay-container">
+      <h1>CALC !</h1>
+      <br>
+      <p>&nbsp; &nbsp; - as fast as you can...</p>
+      <br><br><br>
+      <span class="btn" onclick="start()">Let's Play</span>
+      <br><br><br><br><br><br><br><br><br><br>
+      <p><centre>Have fun with GVP !</centre></p>
+    </div>
+
+    <div class="end-container">
+      <h1 class="win-questions">0 Hits</h1>
+    </div>
+  
+    <div class="calculator-top">
+      <div class="calculator-screen">123+321=</div>
+      <div class="calculator-time">00:30</div>
+    </div>
+
+    <div class="calculator-buttons">
+      <div class="calculator-button" onclick="buttonClick(0)">0</div>
+      <div class="calculator-button" onclick="buttonClick(1)">1</div>
+      <div class="calculator-button" onclick="buttonClick(2)">2</div>
+      <div class="calculator-button" onclick="buttonClick(3)">3</div>
+      <div class="calculator-button" onclick="buttonClick(4)">4</div>
+      <div class="calculator-button" onclick="buttonClick(5)">5</div>
+      <div class="calculator-button" onclick="buttonClick(6)">6</div>
+      <div class="calculator-button" onclick="buttonClick(7)">7</div>
+      <div class="calculator-button" onclick="buttonClick(8)">8</div>
+      <div class="calculator-button" onclick="buttonClick(9)">9</div>
+      <div class="calculator-button" onclick="backClick()"><</div>
+      <div class="calculator-button" onclick="response()">=</div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
