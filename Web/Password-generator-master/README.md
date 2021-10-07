@@ -1,5 +1,6 @@
 # PASSWORD GENERATOR 
 ## A random password generator using html,css and javascript 
+ <img src="https://img.shields.io/badge/Frontend:-HTML & CSS-5555ff">  <img src="https://img.shields.io/badge/Backend:- Javascript-E32800"> 
 
 ## Working :
 ### We can generate passswords according to our needs by checking the boxes as shown below-
