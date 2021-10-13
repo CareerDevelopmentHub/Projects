@@ -1,0 +1,9 @@
+@import "../utils/mixins";
+/*This portion of code styles all the webpages.
+"box-sizing" allows us to be certain that border/padding are included in the toal height and width of the elements"  */
+* {
+    line-height: 140%;  
+    padding: 0;
+    margin: 0;
+    @include box_sizing;
+}

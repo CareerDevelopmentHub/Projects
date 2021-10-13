@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Peter Parker</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="initial-scale=1.0, user-scalable=yes" />
+        <link rel="stylesheet" type="text/css" href="CSS/Styling.css"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bangers">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@1,700&display=swap">
+        <link href="https://fonts.googleapis.com/css2?family=Arvo&family=Noto+Sans+TC&family=Stint+Ultra+Condensed&display=swap" rel="stylesheet">
+        <style>
+            /*This portion of the code sets the gradient for the background and sets the background to not repeat and to cover the entire screen.*/
+            body {
+                background-image: -webkit-gradient(linear, left top, right bottom, from(#335482), to(#871e1e));
+                background-image: linear-gradient(to bottom right, #335482, #871e1e);
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+
+            /*This portion of the code styles the box to have a background of a Peter Parker image*/
+            .AudioBox-Cointainer {
+                background-image: url("Images/PeterParker/PeterParkerMusicBox3.jpg");
+                border-color: #782d2d;
+            }
+
+            /*This portion of the code styles the audio panel, that is located inside of the "Audiobox".*/
+            #Audiopanel{
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                width: 100%;
+                margin-top: 20px;
+            }
+
+            /*This portion of the code styles the font to be "Comic Neue", this was done so the web page can provide a Comic feel to the overall design. 
+            Much like the comic style implemented into "Spiderman into the spiderverse" movie.*/
+            .BioTextCointainer p {
+                font-size: 22;
+                font-family: 'Comic Neue', cursive;
+                margin-left: 10px;
+                margin-bottom: 50px;
+            } 
+            
+            /*This portion of the code holds the title that is at the top, that says "THEME SONG". 
+            I tried to find a font that was close to the type of font used in comics, where it says 'To be Coninued"*/
+            #MusicTitleCointainer{
+                /*Adobe Colour wheel gave me this as a colour*/
+                background-color: #8f866189;
+                max-width: 300px;
+                align-items: center;
+                font-family: 'Stint Ultra Condensed', cursive, bold;
+                font-size: 40px;
+                text-align: center;
+                color: #000000;
+            }
+            /*This portion of the code styles the headings for each pharagragh of the BioCointainer. 
+            It also creates a shadow for the headings, to give it a glitch effect, to match the heading and the movie's glitching theme */
+            .Section-heading{
+                font-family: Bangers;
+                font-size: 40px;
+                margin-right: 20px;
+                /*Adobe Colour wheel gave me this colour, when I inputed the colour scheme*/
+                text-shadow: 2px 2px #e0c96589;
+                border-bottom: 2px solid rgba(115, 113, 113, 0.564);
+            }
+
+            #CopyRight{
+                font-size:medium;
+            }
+
+            /*Given each page has its own colour scheme as part of the multiverse theme, this portion of the code styles the specifcs.
+            This page has more blue/red as they are the colours of the Peter Parker */
+            .AmazonLink {
+                background: #495cd8;
+            }
+
+            .AmazonLink:hover, .AmazonLink:focus {
+                background: #1e1675;
+                border-radius: 10px;
+            }
+
+            .slideshow-header{
+                text-shadow: 2px 2px #e0c96595;
+            }
+
+            header {
+                background-color: #0d3367;
+            }
+
+            nav ul li a {
+                border: 1px solid #000000;
+                background-color: #244f6e;
+                color: rgb(209, 209, 209);
+            }
+              
+            nav ul li a:hover, nav ul li a:focus {
+                background-color: #000000;
+                color: #ffffff;
+                border-color: #000000;
+            }
+
+        </style>
+    </head>
+    
+    <body>
+        <header>
+            <h1><a href="#" class="glitch" data-glitch="Spiderverse">Spiderverse</a></h1>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="index.html">Peter Parker</a>
+                        </li>
+    
+                        <li>
+                            <a href="MilesMorals.html">Miles Morales</a>
+                        </li>
+    
+                        <li>
+                            <a href="Gwen.html">Gwen Stacy </a>
+                        </li>
+    
+                        <li>
+                            <a href="Noir.html">Noir</a>
+                        </li>
+                    </ul>
+                </nav>
+        </header>
+        <main>
+            <div class="BioCointainer">
+                <div class="BioTextCointainer">
+                    <div class="Section-heading">SUMMARY:</div>
+                    <!--The below text is cited from: marvels-spider-man.fandom.com-->
+                    <p>
+                        "Peter Parker, who adopts the secret identity as the original Spider-Man, is one of the major playable protagonists in Marvel's Spider-Man series. Peter gained his powers after being bitten by a radioactive spider at the age of fifteen. Employing a secret identity, he settled on using his newfound abilities and designing his own web gadgets to protect the citizens of New York City as the first wall-crawling masked vigilante. Eight years into his superhero career, Peter has become an experienced and masterful crime fighter, but struggles to balance his superhero and personal lives.
+                        He is the main playable character and protagonist of the first game, where he was initially started out as a twenty-four-year-old research assistant of his mentor, the respected scientist Dr. Otto Octavius. Spider-Man is aided in his crime-fighting by intrepid Daily Bugle reporter Mary Jane Watson, his ex-girlfriend, and NYPD Captain Yuri Watanabe. In his civilian life, Peter is supported by his Aunt May. Later, Peter becomes the mentor to Miles Morales, a second Spider-Man." Copied from: <a href="https://marvels-spider-man.fandom.com/wiki/Peter_Parker">www.fandom.com</a> 
+                    </p>
+
+                    <div class="Section-heading">EARLY LIFE:</div>
+                    <!--The below text was taken from: www.fandom.com -->
+                    <p>
+                        "Following the death of his parents, Peter was raised by his Aunt May and Uncle Ben in Queens. While in middle school, Peter became best friends with Mary Jane Watson and Harry Osborn, forming a friendship that would last into his adulthood. Peter also developed an interest in science at a young age, and he grew up idolizing the acclaimed scientist Dr. Otto Octavius.
+                        At fifteen years old, while attending a science demonstration, Peter was bitten by a radiation-infused spider, which altered his physiology and granted him several abilities, such as enhanced strength, agility, speed, as well as a "spider-sense" that alerted him to any danger. Peter fashioned a rudimentary costume for himself out of a shirt, pants and a mask, engineered his own homemade web fluid and web-shooters, and began wrestling for money under the moniker "The Spider".
+                        At some point after this, Peter allowed a mugger to run past him without using his abilities to stop the mugger, deciding it was "not [his] problem". The criminal would go on to shoot and kill Uncle Ben, who died in his arms. Knowing that he could have prevented Ben's death had he stopped the mugger when presented with the opportunity, Peter blamed himself for the incident. Though this was traumatizing and heartbreaking, Peter carried on and began using his powers to help the people of New York, taking the lesson his Uncle Ben once taught him, that "With great power comes great responsibility", to heart"." Copied from: <a href="https://marvels-spider-man.fandom.com/wiki/Peter_Parker">www.fandom.com</a> 
+                    </p>
+                    <div class="Section-heading">SPIDERMAN LIFE:</div>
+                    <!--The below text was taken from www.liveabout.com -->
+                    <p>
+                        "Spider-Man has spider-like abilities including superhuman strength and the ability to cling to most surfaces. He is also extremely agile and has amazing reflexes. Spider-Man also has a “spider sense,” that warns him of impending danger.
+                        Spider-Man has supplemented his powers with technology. Being a brilliant chemist and scientist, Peter has made web-slingers, bracelets that shoot out a sticky webbing, allowing him to swing from building to building and ensnare opponents. He has also developed stingers that shoot powerful energy blasts that can stun foes.
+                        In the recent storyline, Spider-Man has been reborn with even stronger abilities. He has the ability to see in the dark, enhanced senses, and can feel the vibrations through his webbing. In addition to this, the new, “Iron Spidey,” suit has enhanced his strength further and gives protection from damage. Recently, however, he has gotten rid of the suit and returned to the classic costume." Copied from: <a href="https://www.liveabout.com/spider-man-profile-804271">www.liveabout.com</a> 
+                    </p>
+                </div>
+                <!--This portion of the code creates a spiderman image, as the background.-->
+                <div class="AudioBox-Cointainer" alt="Cartoon Peter Parker's spiderman swinging through new york city">
+
+                    <!--This creates a heading saying "Theme Song" and the copyright disclammer -->
+                    <div id="MusicTitleCointainer">THEME SONG <br> <small id="CopyRight" style="color: whitesmoke;"><u>Composed by: Paul Francis Webster and Bob Harris</u></small></div>
+
+                    <!--This portion of the code creates the audio panel. And sets the file to be of the type "mpeg".
+                    CREDIT: 
+                    Composers: Paul Francis Webster and Bob Harris  [https://en.wikipedia.org/wiki/Spider-Man_(theme_song)]
+                    -->
+                    <audio controls id="Audiopanel">
+                        <source src="Music/PeterParkerMusic.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+            </div>
+
+            <!--The folliwng code that creates the slideshow was adapted from this github: https://github.com/saam-khatri/simple-owl-carousel/blob/file/css/style.css-->
+            <div class="slideshow">
+                <div class="sub-slideshow">
+                    <div class="slideshow-header">
+                        <h1>Shop Peter Parker:</h1>
+                        <!--This portion of the code creates less than and greater than signs, that will be used as buttons to navigate the slidshow -->
+                        <p>
+                            <span>&#139;</span>
+                            <span>&#155;</span>
+                        </p>
+                    </div>
+                    <section>
+                        <!--This portion of the code creates a image, description text, purchase button for each comic book slide in the slider/carousel
+                            No alt text was placed on the image as the "detail" class describes the book and would cause the screen reader to repeat the same thing. -->
+                        <div class="product">
+                            <picture class="ComicCover">
+                                <img src="Images/PeterParker/Carousel/Spiderman-Comic-1.jpg" alt="">
+                            </picture>
+                            <div class="detail">
+                                <p>
+                                    <b>The Spectacular Spider-Man Vol. 3: Amazing Fantasy</b>
+                                </p>
+                            </div>
+                            <div class="button">
+                                <a class="AmazonLink"href="https://www.amazon.ca/Peter-Parker-Spectacular-Spider-Man-Amazing/dp/130291118X/ref=sr_1_1?dchild=1&keywords=spectacular+spiderman+comic&qid=1624216561&sr=8-1" alt=" Link to Amazon Page The Spectacular Spider-Man Vol. 3: Amazing Fantasy">Purchase</a>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <picture class="ComicCover">
+                                <img src="Images/PeterParker/Carousel/Spierman-Comic-2(test).jpg" alt="">
+                            </picture>
+                            <div class="detail">
+                                <p>
+                                    <b>Spider-Man: Inside the World of Your Friendly Neighborhood Hero</b>
+                                </p>
+                            </div>
+                            <div class="button">
+                                <a class="AmazonLink"href="https://www.amazon.ca/Spider-Man-Inside-Friendly-Neighborhood-Updated/dp/1465461914/ref=sr_1_13?dchild=1&keywords=spectacular+spiderman+comic&qid=1624216561&sr=8-13">Purchase</a>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <picture class="ComicCover">
+                                <img src="Images/PeterParker/Carousel/Spiderman3.jpg" alt="">
+                            </picture>
+                            <div class="detail">
+                                <p>
+                                    <b>The Spectacular Spider-Man Vol. 2: Most Wanted</b>
+                                </p>
+                            </div>
+                            <div class="button">
+                                <a class="AmazonLink"href="https://www.amazon.ca/Peter-Parker-Spectacular-Spider-Man-Wanted/dp/1302907573/ref=sr_1_2?dchild=1&keywords=spectacular+spiderman+comic&qid=1624216561&sr=8-2">Purchase</a>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <picture class="ComicCover">
+                                <img src="Images/PeterParker/Carousel/Spidermane-COmic4.jpg" alt="">
+                            </picture>
+                            <div class="detail">
+                                <p>
+                                    <b>Spider-Man: Tombstone Vol. 1 </b>
+                                </p>
+                                <br>
+                            </div>
+                            <div class="button">
+                                <a class="AmazonLink"href="https://www.amazon.ca/Spider-Man-Tombstone-Vol-Gerry-Conway/dp/1302900641/ref=sr_1_10?dchild=1&keywords=spectacular+spiderman+comic&qid=1624216561&sr=8-10">Purchase</a>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <picture class="ComicCover">
+                                <img src="Images/PeterParker/Carousel/Spiderman-Comic5.jpg" alt="">
+                            </picture>
+                            <div class="detail">
+                                <p>
+                                    <b>The Spectacular Spider-Man Vol. 4: Coming Home</b>
+                                </p>
+                            </div>
+                            <div class="button">
+                                <a class="AmazonLink"href="https://www.amazon.ca/Peter-Parker-Spectacular-Spider-Man-2017-2018-ebook/dp/B07JH5ZJBB/ref=sr_1_8?dchild=1&keywords=spectacular+spiderman+comic&qid=1624216561&sr=8-8">Purchase</a>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <picture class="ComicCover">
+                                <img src="Images/PeterParker/Carousel/Spiderman-Comic6.jpg" alt="">
+                            </picture>
+                            <div class="detail">
+                                <p>
+                                    <b>The Spectacular Spider-Man Vol. 1: Into The Twilight</b>
+                                </p>
+                            </div>
+                            <div class="button">
+                                <a class="AmazonLink"href="https://www.amazon.ca/Peter-Parker-Spectacular-Spider-Man-Twilight-ebook/dp/B077JB3T8Q/ref=sr_1_4?dchild=1&keywords=spectacular+spiderman+comic&qid=1624216561&sr=8-4">Purchase</a>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <picture class="ComicCover">
+                                <img src="Images/PeterParker/Carousel/Spiderman-Comic7.jpg" alt="">
+                            </picture>
+                            <div class="detail">
+                                <p>
+                                    <b>Marvel Masterworks: The Spectacular Spider-Man Vol. 3</b>
+                                </p>
+                            </div>
+                            <div class="button">
+                                <a class="AmazonLink"href="https://www.amazon.ca/Marvel-Masterworks-Spectacular-Spider-Man-Vol/dp/130292236X/ref=sr_1_19?dchild=1&keywords=spectacular+spiderman+comic&qid=1624216561&sr=8-19">Purchase</a>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <picture class="ComicCover">
+                                <img src="Images/PeterParker/Carousel/Spiderman8(new).jpg" alt="">
+                            </picture>
+                            <div class="detail">
+                                <p>
+                                    <b>5-Minute Spider-Man Stories</b>
+                                </p>
+                            </div>
+                            <div class="button">
+                                <a class="AmazonLink"href="https://www.amazon.ca/5-Minute-Spider-Man-Stories-Marvel-Press/dp/1484781422/ref=sr_1_1?dchild=1&keywords=5+minute+spiderman+comic&qid=1624217430&sr=8-1">Purchase</a>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <picture class="ComicCover">
+                                <img src="Images/PeterParker/Carousel/Spiderman9.jpg" alt="">
+                            </picture>
+                            <div class="detail">
+                                <p>
+                                    <b>Spider-Man: Life Story</b>
+                                </p>
+                            </div>
+                            <div class="button">
+                                <a class="AmazonLink"href="https://www.amazon.ca/Spider-Man-Life-Story-Chip-Zdarsky/dp/1302931911/ref=sr_1_1?dchild=1&keywords=spiderman+life+story&qid=1624217554&sr=8-1">Purchase</a>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <picture class="ComicCover">
+                                <img src="Images/PeterParker/Carousel/Spiderman10(new).jpg" alt="">
+                            </picture>
+                            <div class="detail">
+                                <p>
+                                    <b>Spider-Man: Kraven's Last Hunt</b>
+                                </p>
+                            </div>
+                            <div class="button">
+                                <a class="AmazonLink"href="https://www.amazon.ca/Spider-Man-Kravens-Last-Hunt-Premiere-ebook/dp/B00PSN2GGK/ref=sr_1_46?dchild=1&keywords=spectacular+spiderman+comic&qid=1624216561&sr=8-46">Purchase</a>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <picture class="ComicCover">
+                                <img src="Images/PeterParker/Carousel/Spiderman11(new).jpg" alt="">
+                            </picture>
+                            <div class="detail">
+                                <p>
+                                    <b>The Spectacular Spider-Man #1</b>
+                                </p>
+                            </div>
+                            <div class="button">
+                                <a class="AmazonLink"href="https://www.amazon.ca/Spectacular-Spider-Man-Vintage-Reproduction-Inches/dp/B07K24QLN5/ref=sr_1_20?dchild=1&keywords=spectacular+spiderman+comic&qid=1624216561&sr=8-20">Purchase</a>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <picture class="ComicCover">
+                                <img src="Images/PeterParker/Carousel/Spiderman12.jpg" alt="">
+                            </picture>
+                            <div class="detail">
+                                <p>
+                                    <b>The Complete Alien Costume Saga Book One</b>
+                                </p>
+                            </div>
+                            <div class="button">
+                                <a class="AmazonLink"href="https://www.amazon.ca/Spider-Man-Complete-Alien-Costume-Saga-ebook/dp/B07T2NW5RV/ref=sr_1_30?dchild=1&keywords=spectacular+spiderman+comic&qid=1624216561&sr=8-30">Purchase</a>
+                            </div>
+                    </section>
+                </div>   
+            </div>
+        </main>
+    </body>
+</html>
+<!--This portion of the code summons the Javascrip file that allows the slider to function-->
+<script type="text/javascript" src="JS/main.js"></script>

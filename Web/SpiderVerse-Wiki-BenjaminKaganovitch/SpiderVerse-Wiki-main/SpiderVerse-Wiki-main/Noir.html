@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Noir</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="initial-scale=1.0, user-scalable=yes" />
+        <link rel="stylesheet" type="text/css" href="CSS/Styling.css"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bangers">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@1,700&display=swap">
+        <link href="https://fonts.googleapis.com/css2?family=Arvo&family=Noto+Sans+TC&family=Stint+Ultra+Condensed&display=swap" rel="stylesheet">
+        <style>
+            /*This portion of the code sets the gradient for the background and sets the background to not repeat and to cover the entire screen.*/
+            body {
+                background-image: -webkit-gradient(linear, left top, right bottom, from(#636363), to(#000000));
+                background-image: linear-gradient(to bottom right, #636363, #000000);
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+
+            /*This portion of the code styles the box to have a background of a  image of Noir*/
+            .AudioBox-Cointainer {
+                background-image: url("Images/Noir/NoirMusicBackgroundImage.jfif");
+                border-color: #424242;
+            }
+
+            /*This portion of the code styles the audio panel, that is located inside of the "Audiobox".*/
+            #Audiopanel{
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                width: 100%;
+                margin-top: 20px;
+            }
+            /*This portion of the code styles the font to be "Comic Neue", this was done so the web page can provide a Comic feel to the overall design. 
+            Much like the comic style implemented into "Spiderman into the spiderverse" movie.   */
+            .BioTextCointainer p {
+                font-size: 22;
+                font-family: 'Comic Neue', cursive;
+                margin-left: 10px;
+                margin-bottom: 50px;
+            } 
+            /*This portion of the code holds the title that is at the top, that says "THEME SONG"*/
+            #MusicTitleCointainer{
+                background-color: rgba(159, 159, 159, 0.313);
+                max-width: 300px;
+                align-items: center;
+                font-family: 'Stint Ultra Condensed', cursive, bold;
+                font-size: 40px;
+                text-align: center;
+                color: white;
+            }
+            /*This portion of the code styles the headings for each pharagragh of the BioCointainer. 
+            It also creates a shadow for the headings, to give it a glitch effect, to match the heading and the movie's glitching theme*/
+            .Section-heading{
+                font-family: 'Bangers', cursive;
+                font-size: 40px;
+                margin-right: 20px;
+                text-shadow: 2px 2px #2c2c2c7b;
+                border-bottom: 2px solid #ddd;
+            }
+
+            #CopyRight{
+                font-size:medium;
+            }
+
+            /*Given each page has its own colour scheme as part of the multiverse theme, this portion of the code styles the specifcs.
+            This page has more Black/Grey/White, as those are the colours of Noir and in his Universe everything is black and white.*/
+            .slideshow-header{
+                text-shadow: 2px 2px #2727277b;
+            }
+
+            .AmazonLink {
+                background: #454545;
+            }
+
+            .AmazonLink:hover, .AmazonLink:focus {
+                background: #222222;
+                border-radius: 10px;
+            }
+
+            header {
+                background-color: #343434;
+            }
+
+            nav ul li a {
+                border: 1px solid;
+                background-color: #2c2c2c;
+                color: rgb(209, 209, 209);
+                border-color: #000000;
+            }
+              
+              nav ul li a:hover, nav ul li a:focus {
+                background-color: #000000;
+                color: #ffffff;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <header>
+            <h1><a href="#" class="glitch" data-glitch="Spiderverse">Spiderverse</a></h1>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="index.html">Peter Parker</a>
+                        </li>
+    
+                        <li>
+                            <a href="MilesMorals.html">Miles Morales</a>
+                        </li>
+    
+                        <li>
+                            <a href="Gwen.html">Gwen Stacy </a>
+                        </li>
+    
+                        <li>
+                            <a href="Noir.html">Noir</a>
+                        </li>
+                    </ul>
+                </nav>
+        </header>
+        <main>
+            <div class="BioCointainer">
+                <div class="BioTextCointainer">
+                    <div class="Section-heading">SUMMARY:</div>
+                    <!--For each citation, I made the link be on the name of the website, so it would look a bit more clean.-->
+                    <!--The below text is copied from: Wikipedia.org-->
+                    <p>
+                        "Alternate version of Spider-Man is a noir-themed take on the character and emerges in a version of New York during the Great Depression. While investigating a smuggling ring, Peter Parker is bitten by what seems to be a highly-venomous spider housed in a spider-god idol. Parker has a vision of the spider-god promising him power and then emerges from a cocoon, now possessing super-human abilities similar to that of a spider. As the feared vigilante "the Spider-Man," Parker wages a one-man war against the criminal underworld in New York City, partly to avenge the deaths of his uncle Ben Parker and his mentor Ben Urich at the hands of the city's major crime lord, Norman Osborn. After Osborn's defeat, Spider-Man Noir continues his vigilante life for years and opposes the forces of Nazi Germany even before the United States enters World War II." Copied from: <a href="https://en.wikipedia.org/wiki/Spider-Man_Noir">www.wikipedia.org</a> 
+                    </p>
+
+                    <div class="Section-heading">EARLY LIFE:</div>
+                    <!--The below text was taken from: Fandom.com -->
+                    <p>
+                        "Peter Parker was raised by his paternal aunt and uncle, May and Ben Parker, during the Great Depression. Peter was raised with the belief of good triumphing over evil and was supportive of his aunt and uncle's activism.
+                        Peter tragically discovered the mutilated body of his uncle Ben, killed in retaliation by one of New York City's businessmen for organizing a strike on sweatshops. The murder of his uncle by the Goblin drove Peter's resolve to continue to seek justice. While helping May at a rally in a Hooverville, they encountered a violent response from the Enforcers. Fortunately, the two were saved by Ben Urich.7 Subsequently, Peter became Urich's protege for the Daily Bugle and explored the dire situation of New York City's denizens, especially those under the threat of the Goblin. After Peter mistakenly received a tip-off meant for Urich, he ventured to a warehouse where the Goblin’s men were unloading a shipment of stolen antiques." Copied from: <a href="https://marvel.fandom.com/wiki/Peter_Parker_(Earth-90214)">www.fandom.com</a> 
+                    </p>
+                    <div class="Section-heading">SPIDERMAN LIFE:</div>
+                    <!--The below text was taken from: Marvel.com -->
+                    <p>
+                        "After being bitten by a spider-like God, Peter has enhanced strength, speed, reflexes, agility and durability. He can shoot liquid silk out of his wrists, crawl up walls with little effort, can shoot webbing as nets and to maneuver in between buildings and rooftops. He also has a sixth sense that alerts him to dangers unseen: a spider-sense.
+                        He wears a mask with goggles to hide his identity and dons a durable Kevlar uniform that can withstand bullets and explosions. He occasionally uses a revolver and tommy gun to injure or kill criminal elements." Copied from: <a href="https://www.marvel.com/characters/spider-man-noir">www.marvel.com</a> 
+                    </p>
+                </div>
+                <!--This portion of the code creates a spiderman image, as the background.-->
+                <div class="AudioBox-Cointainer" alt="Noir with his gogles and a leather jacket on, looking rightwards">
+
+                    <!--This creates a heading saying "Theme Song" and the copyright disclammer-->
+                    <div id="MusicTitleCointainer">THEME SONG <br> <small id="CopyRight" style="color: rgb(255, 255, 255);">Written by: Daniel Pemberton</small></div>
+
+                    <!--This portion of the code creates the audio panel. And sets the file to be of the type "mpeg"
+                    CREDIT: 
+                    Written by: Daniel Pemberton
+                    -->
+                    <audio controls id="Audiopanel">
+                        <source src="Music/NoirThemeSong.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+            </div>
+            <!--The folliwng code that creates the slideshow was adapted from this github: https://github.com/saam-khatri/simple-owl-carousel/blob/file/css/style.css-->
+            <div class="slideshow">
+                <div class="sub-slideshow">
+                    <div class="slideshow-header">
+                        <h1>Shop Noir:</h1>
+                        <!--This portion of the code creates less than and greater than signs, that will be used as buttons to navigate the slidshow -->
+                        <p>
+                            <span>&#139;</span>
+                            <span>&#155;</span>
+                        </p>
+                    </div>
+                    <section>
+                        <!--This portion of the code creates a image, description text, purchase button for each comic book slide in the slider/carousel -->
+                        <div class="product">
+                            <picture class="ComicCover">
+                                <img src="Images/Noir/Carousel/NoirBook1.jpg">
+                            </picture>
+                            <div class="detail">
+                                <p>
+                                    <b>Spider-Man Noir (2020) #1</b>
+                                </p>
+                            </div>
+                            <div class="button">
+                                <a class="AmazonLink"href="https://www.marvel.com/comics/series/29329/spider-man_noir_2020">Purchase</a>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <picture class="ComicCover">
+                                <img src="Images/Noir/Carousel/NoirBook2.jpg">
+                            </picture>
+                            <div class="detail">
+                                <p>
+                                    <b>Spider-Man Noir (2020) #2</b>
+                                </p>
+                            </div>
+                            <div class="button">
+                                <a class="AmazonLink"href="https://www.marvel.com/comics/issue/82517/spider-man_noir_2020_2">Purchase</a>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <picture class="ComicCover">
+                                <img src="Images/Noir/Carousel/NoirBook3.jpg">
+                            </picture>
+                            <div class="detail">
+                                <p>
+                                    <b>Spider-Man Noir (2020) #3</b>
+                                </p>
+                            </div>
+                            <div class="button">
+                                <a class="AmazonLink"href="https://www.marvel.com/comics/issue/82518/spider-man_noir_2020_3">Purchase</a>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <picture class="ComicCover">
+                                <img src="Images/Noir/Carousel/NoirBook4.jpg">
+                            </picture>
+                            <div class="detail">
+                                <p>
+                                    <b>Spider-Man Noir (2020) #4</b>
+                                </p>
+                                <br>
+                            </div>
+                            <div class="button">
+                                <a class="AmazonLink"href="https://www.marvel.com/comics/issue/82519/spider-man_noir_2020_4">Purchase</a>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <picture class="ComicCover">
+                                <img src="Images/Noir/Carousel/NoirBook5.jpg">
+                            </picture>
+                            <div class="detail">
+                                <p>
+                                    <b>Spider-Man Noir (2020) #5</b>
+                                </p>
+                            </div>
+                            <div class="button">
+                                <a class="AmazonLink"href="https://www.marvel.com/comics/issue/82520/spider-man_noir_2020_5">Purchase</a>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <picture class="ComicCover">
+                                <img src="Images/Noir/Carousel/6.jpg">
+                            </picture>
+                            <div class="detail">
+                                <p>
+                                    <b>Spider-Man Noir: Eyes Without a Face (2009) #1</b>
+                                </p>
+                            </div>
+                            <div class="button">
+                                <a class="AmazonLink"href="https://www.marvel.com/comics/issue/26434/spider-man_noir_eyes_without_a_face_2009_1">Purchase</a>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <picture class="ComicCover">
+                                <img src="Images/Noir/Carousel/NoirBook7.jpg">
+                            </picture>
+                            <div class="detail">
+                                <p>
+                                    <b>Spider-Man Noir: Eyes Without a Face (2009) #2</b>
+                                </p>
+                            </div>
+                            <div class="button">
+                                <a class="AmazonLink"href="https://www.marvel.com/comics/issue/30526/spider-man_noir_eyes_without_a_face_2009_2">Purchase</a>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <picture class="ComicCover">
+                                <img src="Images/Noir/Carousel/NoirBook8.jpg">
+                            </picture>
+                            <div class="detail">
+                                <p>
+                                    <b>Spider-Man Noir: Eyes Without a Face (2009) #3</b>
+                                </p>
+                            </div>
+                            <div class="button">
+                                <a class="AmazonLink"href="https://www.marvel.com/comics/issue/26436/spider-man_noir_eyes_without_a_face_2009_3">Purchase</a>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <picture class="ComicCover">
+                                <img src="Images/Noir/Carousel/NoirBook9.jpg">
+                            </picture>
+                            <div class="detail">
+                                <p>
+                                    <b>Spider-Man Noir: Eyes Without a Face (2009) #4</b>
+                                </p>
+                            </div>
+                            <div class="button">
+                                <a class="AmazonLink"href="https://www.marvel.com/comics/issue/26436/spider-man_noir_eyes_without_a_face_2009_4">Purchase</a>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <picture class="ComicCover">
+                                <img src="Images/Noir/Carousel/NoirBook10.jpg">
+                            </picture>
+                            <div class="detail">
+                                <p>
+                                    <b>Spider-Man Noir (2008) #1</b>
+                                </p>
+                            </div>
+                            <div class="button">
+                                <a class="AmazonLink"href="https://www.marvel.com/comics/issue/22932/spider-man_noir_2008_1">Purchase</a>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <picture class="ComicCover">
+                                <img src="Images/Noir/Carousel/NoirBook11.jpg">
+                            </picture>
+                            <div class="detail">
+                                <p>
+                                    <b>Spider-Man Noir (2008) #2</b>
+                                </p>
+                            </div>
+                            <div class="button">
+                                <a class="AmazonLink"href="https://www.marvel.com/comics/issue/23129/spider-man_noir_2008_2">Purchase</a>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <picture class="ComicCover">
+                                <img src="Images/Noir/Carousel/NoirBook12.jpg">
+                            </picture>
+                            <div class="detail">
+                                <p>
+                                    <b>Spider-Man Noir (2008) #3</b>
+                                </p>
+                            </div>
+                            <div class="button">
+                                <a class="AmazonLink"href="https://www.marvel.com/comics/issue/23620/spider-man_noir_2008_3">Purchase</a>
+                            </div>
+                        </div>
+                    </section>
+                </div>   
+            </div>
+        </main>
+    </body>
+</html>
+<!--This portion of the code summons the Javascrip file that allows the slider to function-->
+<script type="text/javascript" src="JS/main.js"></script>

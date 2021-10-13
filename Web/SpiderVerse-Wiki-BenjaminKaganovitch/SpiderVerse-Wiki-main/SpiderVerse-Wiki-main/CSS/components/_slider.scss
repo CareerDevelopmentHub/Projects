@@ -1,0 +1,183 @@
+/*The following code was adapted from this github: https://github.com/saam-khatri/simple-owl-carousel/blob/file/css/style.css*/
+/*This portion of the code styles the box around the comic book slidehow*/
+.slideshow{
+    margin-top: 30px;
+}
+.sub-slideshow {
+    width: auto;
+    height: 680px;
+    position: relative;
+    background-color: whitesmoke;
+    border-radius: $border-radius; 
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-bottom: 1.2%;
+}
+/*Style the header portion of the slider*/
+.slideshow-header {
+    width: 98%;
+    height: 60px;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    border-bottom: 2px solid #ddd;  
+}
+
+/*Styles only the text part*/
+h1 {
+    font-family: Bangers;
+    font-size: 40px;
+}
+
+.slideshow-header p span {
+    font-size: 40px;
+    margin: 0 5px;
+    cursor: pointer;
+    color: #555;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    line-height: 19px;
+    text-align: center;
+    border-radius: 3px;
+    text-shadow: none;
+    /*This portion allows us to hover over the arrows and have a sqaure aprea around it*/ 
+}
+
+.slideshow-header p span:hover {
+    background: #222;
+    color: white;
+}
+
+section {
+    width: 98%;
+    height: 600px;
+    margin: auto;
+    display: inline-flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    overflow-x: scroll;
+}
+
+.product {
+    min-width: 24%;
+    height: 90%;
+    background-color: rgb(241, 232, 232);
+    margin: 0 20px  0 0;
+    border-radius: $border-radius;
+    position: relative;
+    left: 0;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    /*This portion of the allows the images in the slider to get adjusted as the slider size gets adjusted, using flexbox*/
+}
+
+picture {
+    width: 100%;
+    height: 70%;
+    padding: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;  
+    align-items: center;
+    overflow: hidden;
+    margin-bottom: 20px;
+    
+}
+
+picture img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.detail p {
+    margin-top: -15px;
+    padding: 0px 15px;
+    font-family: 'Comic Neue', cursive;
+}
+  
+.button {
+    width: 90%;
+    padding: 5px;
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 20px;
+    color: #444; 
+    font-family: Bangers; 
+}
+
+/*
+This portion of the code creates a cool animation when hoverd on. 
+The hover/focus settings are in the enternal CSS, because the theme of the website is multiverse,
+each page has its own colour style which syncs with its "Universe"
+*/
+.AmazonLink{
+    text-decoration: none;
+    padding: 6px 14px;
+    font-size: 15px;
+    display: inline-block;
+    color: white;
+    align-items: center;
+    -webkit-transition: border-radius 1s ease;
+    transition: border-radius 1s ease;
+}
+
+
+/*This portion of the code ensures that there are no scroll bars in the slider, so it can only be used by the arrow buttons, track pad, or touch */
+section::-webkit-scrollbar {
+    display: none;
+}
+
+/*This portion of the code adjusts the layout of the slider when viewed in phone view*/
+@media (max-width: 800px) {
+    .slideshow-header h1 {
+        font-size: 33px;
+    }
+    .slideshow-header p span {
+        font-size: 30px;
+    }
+    section .product {
+        min-width: 49%;
+        margin: 0 10px  0 0;
+    }
+    .detail, .button {
+        font-size: 16px;
+    }
+    .AmazonLink {
+        padding: 6px 10px;
+    }
+}
+
+@media (max-width: 400px) {
+    
+    .slideshow-header h1 {
+        font-size: 28px;
+    }
+}
+/*Screen size responsivness only for Galaxy fold phones*/
+@media (max-width: 320px) {
+    .slideshow-header h1 {
+        font-size: 20px;
+    }
+    .detail p {
+        font-size: smaller;
+    }
+}
