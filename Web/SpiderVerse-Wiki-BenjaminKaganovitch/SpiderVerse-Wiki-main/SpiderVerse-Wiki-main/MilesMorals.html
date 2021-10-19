@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Miles Morales</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="initial-scale=1.0, user-scalable=yes" />
+        <link rel="stylesheet" type="text/css" href="CSS/Styling.css"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bangers">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@1,700&display=swap">
+        <link href="https://fonts.googleapis.com/css2?family=Arvo&family=Noto+Sans+TC&family=Stint+Ultra+Condensed&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+        <style>
+            /*This portion of the code sets the gradient for the background and sets the background to not repeat and to cover the entire div.*/
+            body {
+                background-image: -webkit-gradient(linear, left top, right bottom, from(#000000), to(#780505));
+                background-image: linear-gradient(to bottom right, #000000, #780505);
+                background-repeat: no-repeat;
+                background-size: auto;
+            }
+
+            /*This portion of the code styles the box to have a background of an image of Miles Morals*/
+            .AudioBox-Cointainer {
+                background-image: url("Images/Miles/AudioImage.jpg");
+                border-color: #7e2828;
+            }
+
+            /*This portion of the code styles the audio panel, that is located inside of the "Audiobox".*/
+            #Audiopanel{
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                width: 100%;
+                margin-top: 20px;
+            }
+
+            /*This portion of the code styles the font to be "Comic Neue", this was done so the web page can provide a Comic feel to the overall design. 
+            Much like the comic style implemented into "Spiderman into the spiderverse" movie.*/
+            .BioTextCointainer p {
+                font-size: 22;
+                font-family: 'Comic Neue', cursive;
+                margin-left: 10px;
+                margin-bottom: 50px;
+            } 
+            /*This portion of the code holds the title that is at the top, that says "THEME SONG". 
+            I inputed the colours used on this page into Adobe colour wheel and it gave me this shade of green to use*/
+            #MusicTitleCointainer{
+                background-color: #67e68b58;
+                max-width: 300px;
+                align-items: center;
+                font-family: 'Stint Ultra Condensed', cursive, bold;
+                font-size: 40px;
+                text-align: center;
+                color: rgb(0, 0, 0);
+            }
+            /*This portion of the code styles the headings for each pharagragh of the BioTextCointainer. 
+            It also creates a shadow for the headings, to give it a glitch effect, to match the heading and the movie's glitching theme */
+            .Section-heading{
+                font-family: 'Bangers', cursive;
+                font-size: 40px;
+                margin-right: 20px;
+                text-shadow: 2px 2px #269947a5;
+                border-bottom: 2px solid #ddd;
+            }
+
+            #CopyRight{
+                font-size:medium;
+            }
+
+            /*Given each page has its own colour scheme as part of the multiverse theme, this portion of the code styles the specifcs.
+            This page has more Black/Red theme as its the colours of Miles spider suit*/
+            .slideshow-header{
+                text-shadow: 2px 2px #16a13d68;
+            }
+
+            .AmazonLink {
+                background: #7e1b1b;
+            }
+
+            .AmazonLink:hover, .AmazonLink:focus {
+                background: #222222;
+                border-radius: 10px;
+            }
+
+            header {
+                background-color: #470e0e;
+            }
+
+            nav ul li a {
+                border: 1px solid #000000;
+                background-color: #7e1b1b;
+                color: rgb(224, 224, 224);
+            }
+              
+            nav ul li a:hover, nav ul li a:focus {
+                background-color: #000000;
+                color: #fdfdfd;
+                border-color: #000000;  
+            }
+        </style>
+    </head>
+    
+    <body>
+        <header>
+            <h1><a href="#" class="glitch" data-glitch="Spiderverse">Spiderverse</a></h1>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="index.html">Peter Parker</a>
+                        </li>
+    
+                        <li>
+                            <a href="MilesMorals.html">Miles Morales</a>
+                        </li>
+    
+                        <li>
+                            <a href="Gwen.html">Gwen Stacy </a>
+                        </li>
+    
+                        <li>
+                            <a href="Noir.html">Noir</a>
+                        </li>
+                    </ul>
+                </nav>
+        </header>
+        <main>
+            <div class="BioCointainer">
+                <div class="BioTextCointainer">
+                    <div class="Section-heading">SUMMARY:</div>
+                    <!--The below text is cited from: Marvel.com-->
+                    <p>
+                        "In an alternate reality, Miles Morales follows in the footsteps of the slain Peter Parker to become the masked Super Hero known as Spider-Man. Splitting his time between fighting crime and managing his teenage personal life, Morales has to hide his identity from his parents, but confides in his best friend Ganke and other trustworthy members of the Super Hero community.
+                        Where the original Spider-Man lived by his Uncle Ben's maxim, "With great power comes great responsibility," Miles Morales adds the addendum, "What would Peter Parker do?"." Copied from: <a href="https://www.marvel.com/characters/spider-man-miles-morales/in-comics">www.Marvel.com</a> 
+                    </p>
+
+                    <div class="Section-heading">EARLY LIFE:</div>
+                    <!--The below text was taken from: Fandom.com-->
+                    <p>
+                        "Miles was born in Brooklyn, New York City around the year 2003. He was the only son of police officer Jefferson Davis and teacher Rio Morales. Miles developed an inclination for technology at an early age, taking apart his family's TV at the age of five. As a teenager, he and his friends developed a phone app that allowed them to hack into almost any technology, even military-grade equipment.
+                        Miles was close friends with Phin Mason and her brother Rick Mason, as they were passionate scientists. Miles considered Phin to be like a sister to him, and the two were inseparable, creating many inventions that were placed in time capsules across the city. At one point, Phin and Miles developed an energy converted that was featured by Oscorp in their science center.
+                        The two were not given tickets to their own exhibition, and were forced to sneak in. After this, Miles enrolled in Brooklyn Visions Academy while Phin enrolled in Midtown High School, leading them to grow apart on account of seeing one another less." Copied from: <a href="https://www.marvel.com/characters/spider-man-miles-morales/in-comics">www.Fandom.com</a> 
+                    </p>
+                    <div class="Section-heading">SPIDERMAN LIFE:</div>
+                    <!--The below text was taken from: Marvel.com -->
+                    <p>
+                        "In Miles' original reality, Norman Osborn, AKA the Green Goblin, sought to recreate the circumstances that created his arch nemesis Spider-Man (Peter Parker). In his efforts at Oscorp, a genetically enhanced spider known as specimen 42 was unknowingly stolen by Aaron Davis, a high-tech thief known as the Prowler. Davis had a relationship with his teenage nephew Miles Morales,
+                        one Miles' parents Jefferson Davis and Rio Morales neither approved nor were aware of. One day, while visiting his uncle to tell him about winning a lottery to enroll at the prestigious Brooklyn Visions Academy, Miles was bitten by the burglarized spider. Upon discovering that the bite left him with super human abilities, Miles had a brief early brush with super heroics when
+                        saving people from a burning building. After talking things over with his close confidante Ganke Lee, however, Miles decided that this life wasn't for him.Later, Miles snuck out of school to watch the Green Goblin and Spider-Man have their climactic battle, which saw both of them perish at the other's hand. Blaming himself for not using his powers to help Peter, Miles attended
+                        his funeral, where Gwen Stacy relayed Uncle Ben's lesson that with great power comes great responsibility. Initially, he was inspired to fight crime in a makeshift Halloween costume version of the Spider-Man outfit, but after proving himself to S.H.I.E.L.D. Agent Spider-Woman (Jessica Drew), the agency gifted him a new uniform, thus beginning his official career as the new Spider-Man." Copied from: <a href="https://www.marvel.com/characters/spider-man-miles-morales/in-comics">www.Marvel.com</a> 
+                    </p>
+                </div>
+                <!--This portion of the code creates a spiderman image, as the background.-->
+                <div class="AudioBox-Cointainer" alt="Miles Morals swinging through the city with the sun setting or rising in the background">
+
+                    <!--This creates a heading saying "Theme Song" and the copyright disclammer. I made this have two diffrent colours, so it would stand out from the background-->
+                    <div id="MusicTitleCointainer">THEME SONG <br> <small id="CopyRight" style="color: whitesmoke;"><u>Written by: Carter Lang and Austin Post</u></small></div>
+
+                    <!--This portion of the code creates the audio panel. And sets the file to be of the type "mpeg"
+                    CREDIT:
+                    Written by: Carter Lang and Austin Post
+                    -->
+                    <audio controls id="Audiopanel">
+                        <source src="Music/Post Malone, Swae Lee - Sunflower (Spider-Man Into the Spider-Verse).mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+            </div>
+            <!--The folliwng code that creates the slideshow was adapted from this github: https://github.com/saam-khatri/simple-owl-carousel/blob/file/css/style.css-->
+            <div class="slideshow">
+                <div class="sub-slideshow">
+                    <div class="slideshow-header">
+                        <h1>Shop Miles Morals:</h1>
+                        <!--This portion of the code creates less than and greater than signs, that will be used as buttons to navigate the slidshow -->
+                        <p>
+                            <span>&#139;</span>
+                            <span>&#155;</span>
+                        </p>
+                    </div>
+                    <section>
+                        <!--This portion of the code creates a image, description text, purchase button for each comic book slide in the slider/carousel
+                            No alt text was placed on the image as the "detail" class describes the book and would cause the screen reader to repeat the same thing. -->
+                        <div class="product">
+                            <picture class="ComicCover">
+                                <img src="Images/Miles/Carousel/Miles1.jpg">
+                            </picture>
+                            <div class="detail">
+                                <p>
+                                    <b>Ultimate Spider-Man Volume 1: Revival</b>
+                                </p>
+                            </div>
+                            <div class="button">
+                                <a class="AmazonLink"href="https://www.amazon.ca/Miles-Morales-Ultimate-Spider-Man-Revival/dp/0785154175/ref=sr_1_1?dchild=1&keywords=miles+morales+comic+books&qid=1624418098&sr=8-1">Purchase</a>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <picture class="ComicCover">
+                                <img src="Images/Miles/Carousel/Miles2.jpg">
+                            </picture>
+                            <div class="detail">
+                                <p>
+                                    <b>Miles Morales: Spider-Man</b>
+                                </p>
+                            </div>
+                            <div class="button">
+                                <a class="AmazonLink"href="https://www.amazon.ca/Miles-Morales-Brian-Michael-Bendis/dp/1302918079/ref=sr_1_4?dchild=1&keywords=miles+morales+comic+books&qid=1624418098&sr=8-4">Purchase</a>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <picture class="ComicCover">
+                                <img src="Images/Miles/Carousel/Miles3.jpg">
+                            </picture>
+                            <div class="detail">
+                                <p>
+                                    <b>Spider-Man: Miles Morales Vol. 1</b>
+                                </p>
+                            </div>
+                            <div class="button">
+                                <a class="AmazonLink"href="https://www.amazon.ca/Spider-Man-Miles-Morales-Vol-1/dp/0785199616/ref=sr_1_12?dchild=1&keywords=miles+morales+comic+books&qid=1624418098&sr=8-12">Purchase</a>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <picture class="ComicCover">
+                                <img src="Images/Miles/Carousel/Miles4.jpg" alt="">
+                            </picture>
+                            <div class="detail">
+                                <p>
+                                    <b>Miles Morales – Wings of Fury</b>
+                                </p>
+                                <br>
+                            </div>
+                            <div class="button">
+                                <a class="AmazonLink"href="https://www.amazon.ca/Marvels-Spider-Man-Miles-Morales-Wings/dp/1789094860/ref=sr_1_13?dchild=1&keywords=miles+morales+comic+books&qid=1624418098&sr=8-13">Purchase</a>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <picture class="ComicCover">
+                                <img src="Images/Miles/Carousel/Miles5.jpg" alt="">
+                            </picture>
+                            <div class="detail">
+                                <p>
+                            </picture>
+                                    <b>Miles Morales Vol. 4</b>
+                                </p>
+                            </div>
+                            <div class="button">
+                                <a class="AmazonLink"href="https://www.amazon.ca/Miles-Morales-Vol-Saladin-Ahmed/dp/1302920170/ref=sr_1_5?dchild=1&keywords=miles+morales+comic+books&qid=1624418098&sr=8-5">Purchase</a>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <picture class="ComicCover">
+                                <img src="Images/Miles/Carousel/Miles6.jpg" alt="">
+                            </picture>
+                            <div class="detail">
+                                <p>
+                                    <b>Spider-Man: Miles Morales Vol. 4</b>
+                                </p>
+                            </div>
+                            <div class="button">
+                                <a class="AmazonLink"href="https://www.amazon.ca/Spider-Man-Miles-Morales-Vol-4/dp/1302905988/ref=sr_1_2?dchild=1&keywords=miles+morales+comic+books&qid=1624418098&sr=8-2">Purchase</a>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <picture class="ComicCover">
+                                <img src="Images/Miles/Carousel/Miles7.jpg" alt="">
+                            </picture>
+                            <div class="detail">
+                                <p>
+                                    <b>Miles Morales: Shock Waves</b>
+                                </p>
+                            </div>
+                            <div class="button">
+                                <a class="AmazonLink"href="https://www.amazon.ca/Miles-Morales-Original-Spider-Man-Graphic/dp/1338648039/ref=sr_1_9?dchild=1&keywords=miles+morales+comic+books&qid=1624418098&sr=8-9">Purchase</a>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <picture class="ComicCover">
+                                <img src="Images/Miles/Carousel/Miles8.jpg" alt="">
+                            </picture>
+                            <div class="detail">
+                                <p>
+                                    <b>Miles Morales: With Great Power</b>
+                                </p>
+                            </div>
+                            <div class="button">
+                                <a class="AmazonLink"href="https://www.amazon.ca/Miles-Morales-Brian-Michael-Bendis/dp/1302919776/ref=sr_1_10?dchild=1&keywords=miles+morales+comic+books&qid=1624418098&sr=8-10">Purchase</a>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <picture class="ComicCover">
+                                <img src="Images/Miles/Carousel/Miles9.jpg" alt="">
+                            </picture>
+                            <div class="detail">
+                                <p>
+                                    <b>Spider-Man Vol. 1: Straight Out of Brooklyn</b>
+                                </p>
+                            </div>
+                            <div class="button">
+                                <a class="AmazonLink"href="https://www.amazon.ca/Miles-Morales-Spider-Man-Straight-Brooklyn/dp/1302914782/ref=sr_1_11?dchild=1&keywords=miles+morales+comic+books&qid=1624418098&sr=8-11">Purchase</a>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <picture class="ComicCover">
+                                <img src="Images/Miles/Carousel/Miles10.jpg" alt="">
+                            </picture>
+                            <div class="detail">
+                                <p>
+                                    <b>Miles Morales: Spider-Man</b>
+                                </p>
+                            </div>
+                            <div class="button">
+                                <a class="AmazonLink"href="https://www.amazon.ca/Miles-Morales-Spider-Man-Jason-Reynolds/dp/148478748X/ref=sr_1_15?dchild=1&keywords=miles+morales+comic+books&qid=1624418098&sr=8-15">Purchase</a>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <picture class="ComicCover">
+                                <img src="Images/Miles/Carousel/Miles11.jpg" alt="">
+                            </picture>
+                            <div class="detail">
+                                <p>
+                                    <b>Miles Morales: Great Responsibility</b>
+                                </p>
+                            </div>
+                            <div class="button">
+                                <a class="AmazonLink"href="https://www.amazon.ca/Miles-Morales-Brian-Michael-Bendis/dp/1302921142/ref=sr_1_20?dchild=1&keywords=miles+morales+comic+books&qid=1624418098&sr=8-20">Purchase</a>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <picture class="ComicCover">
+                                <img src="Images/Miles/Carousel/Miles12.jpg" alt="">
+                            </picture>
+                            <div class="detail">
+                                <p>
+                                    <b>Miles Morales: Ultimate Spider-Man Omnibus</b>
+                                </p>
+                            </div>
+                            <div class="button">
+                                <a class="AmazonLink"href="https://www.amazon.ca/Miles-Morales-Ultimate-Spider-Man-Omnibus/dp/1302925105/ref=sr_1_26?dchild=1&keywords=miles+morales+comic+books&qid=1624418098&sr=8-26">Purchase</a>
+                            </div>
+                        </div>
+                    </section>
+                </div>   
+            </div>
+        </main>
+    </body>
+</html>
+<!--This portion of the code summons the Javascrip file that allows the slider to function-->
+<script type="text/javascript" src="JS/main.js"></script>

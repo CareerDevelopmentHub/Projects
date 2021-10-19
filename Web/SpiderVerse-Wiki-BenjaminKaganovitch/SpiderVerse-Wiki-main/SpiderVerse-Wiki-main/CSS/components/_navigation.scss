@@ -1,0 +1,52 @@
+@import "../utils/_variables";
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Bangers&display=swap');
+/*This portion of the code customizes the nav bar in the heading. It allows it to have flex, and sets the colours for hover and focus. */
+nav {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 125px;
+    width: 100%;
+
+    ul {
+        list-style-type: none;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        width: 100%;
+
+        li {
+            padding: 5px;
+            font-size: 20px;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            list-style-type: none;
+            flex: 1;
+            width: 100%;
+
+            a {
+                padding: 5px;
+                margin: 4px;
+                text-decoration: none;
+                display: inline-block;
+                text-align: center;
+                width: 100%;
+                /*I tried to find a replica of the "TO BE CONTINUED" font, you see at the end of comic books*/
+                font-family: 'Acme', sans-serif;
+                border-color: $nav-border-color;
+                &:hover, &:focus {
+                    border-color: $nav-border-color;
+                }
+            }
+        }
+    }
+}
+/*This portion of the code is only for Galaxy fold devices that have a width of 280px*/
+@media (max-width: 300px) {
+    
+    nav ul li a {
+        padding: 0px;
+    }
+}

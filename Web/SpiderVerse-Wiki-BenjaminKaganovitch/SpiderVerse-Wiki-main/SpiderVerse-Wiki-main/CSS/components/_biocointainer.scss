@@ -1,0 +1,90 @@
+@import "../utils/_variables";
+@import "../utils/_mixins";
+/*This part of the code creates sets the settings for flexbox, and creates round edges.
+All of this is around the information portion of the webpage and the Audio box.*/
+
+.BioCointainer {
+    display: flex;
+    flex-direction: row;
+    background-color: ghostwhite;
+    width: auto;
+    margin-top: 205px;
+    margin-bottom: 0px;
+    border-radius: $border-radius;
+    position: relative;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.AudioBox-Cointainer {
+    @include flex_item_sizing;
+    position: relative;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-radius: $border-radius;
+    border-color: #7e2828;
+    border-width: 10px;
+    border-style: solid;
+    background-size: cover;
+    background-position: center;
+    /*This gives the audio box a shadow, which gives the whole structure of the site, more of a 3d and attention grabbing theme.*/
+    -webkit-box-shadow: 17px 17px $audiobox-shadow-color;
+    box-shadow: 17px 17px $audiobox-shadow-color;
+    height: 400px;
+    max-height: 400px;
+    width: 300px;
+    max-width: 300px;
+    margin-top: 200px;
+}
+//This portion of the code styles the coitnainer, where both the headings and the body texts are cointained. 
+.BioTextCointainer{
+    @include flex_item_sizing;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+/*This portion of the code adjusts the layout of the Biocointainer when viewed in large tablet view. 
+Such as: adjusting the margins as the audiobox gets moved, due to width restriction.*/
+@media (max-width: 800px) {
+    .BioCointainer {
+        flex-direction: column;
+    }
+
+    .AudioBox-Cointainer{
+        min-height: 265px;
+        margin-left: 20px;
+        margin-top: 0px;
+        margin-bottom: 50px;
+    }
+}
+/*This portion of the code adjusts the layout of the Biocointainer when viewed in phone view.*/
+/*This gets rid of the shadow, to decompress to much content.*/
+@media (max-width: 480px) {
+    .AudioBox-Cointainer{
+        min-height: 265px;
+        margin-top: 0px;
+        margin-bottom: 50px;
+        box-shadow: 0px 0px;
+        margin-right: 6%;
+    }
+}
+/*This portion of the adjusts the margin top of the biocointainer as the nav text splits to two lines*/
+@media (max-width: 550px) {
+    .BioCointainer {
+        margin-top: 225px;
+    }
+}
+
+@media (max-width: 380px) {
+    .AudioBox-Cointainer{
+        width: auto;
+    }
+}
+
+/*This portion of the adjusts the margin of the biocointainer from the top as the nav bar gets smaller when the width gets adjusted*/
+@media (max-width: 300px) {
+    .BioCointainer {
+        margin-top: 215px;
+        
+    }
+}

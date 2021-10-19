@@ -1,0 +1,11 @@
+@mixin box_sizing {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+@mixin flex_item_sizing {
+    -webkit-box-flex: 50%;
+    -ms-flex: 50%;
+    flex: 50%;
+}

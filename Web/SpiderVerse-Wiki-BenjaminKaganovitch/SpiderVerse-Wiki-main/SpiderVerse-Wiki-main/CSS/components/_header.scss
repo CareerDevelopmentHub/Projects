@@ -1,0 +1,116 @@
+
+header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: -webkit-sticky;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+    background-color: #153659;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+/*This portion of the code sets the glitch affect on the heading "Spiderverse"*/
+/*This code was adapted from: https://codepen.io/kkhenriquez/pen/PGvmjm*/
+.glitch {
+    font: {
+        size: 3em;
+        family: Bangers;
+        weight: 700;
+    }
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 0;
+    color: #fff;
+    letter-spacing: 5px;
+    
+    &:before, &:after {
+        display: block;
+        content: attr(data-glitch);
+        position: absolute;
+        top: 0;
+        left: 0;
+        text-transform: uppercase;
+        height: 100%;
+        width: 100%;
+        opacity: .8;
+    } &:after {
+        color: #f0f;
+        z-index: -2;
+    } &:before {
+        color: #0ff;
+        z-index: -1;
+    }
+    &:hover {
+        &:before {
+            animation: glitch .3s cubic-bezier(.25, .46, .45, .94) both 5
+        }
+        &:after {
+            animation: glitch .3s cubic-bezier(.25, .46, .45, .94) reverse both 5
+        }
+    }
+}
+/*This portion of the code adjusts the font size of the glitch effect on the header on diffrent phone views of the website */
+
+@media only screen and (max-width: 700px) {
+    .glitch {
+        font-size: 2.5em;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .glitch {
+        font-size: 2em;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .glitch {
+        font-size: 1.9em;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .glitch {
+        font-size: 1.7em;
+    }
+}
+
+@media only screen and (max-width: 340px) {
+    .glitch {
+        font-size: 1.5em;
+    }
+}
+
+@media only screen and (max-width: 310px) {
+    .glitch {
+        font-size: 1.35em;
+    }
+}
+
+/*This portion of the code custmoizes the keyframes on the glitch effect*/
+@keyframes glitch {
+    0% {
+        transform: translate(0)
+    }
+    20% {
+        transform: translate(-5px, 5px)
+    }
+    40% {
+        transform: translate(-5px, -5px)
+    }
+    60% {
+        transform: translate(5px, 5px)
+    }
+    80% {
+        transform: translate(5px, -5px)
+    }
+    to {
+        transform: translate(0)
+    }
+}
